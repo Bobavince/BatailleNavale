@@ -4,5 +4,6 @@
  */
 
 public class Bateau {
-
+	int longueurBateau
+	int caseDebut
 }
