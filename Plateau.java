@@ -34,4 +34,13 @@ public class Plateau {
 * Si le tire touche un bateau, dans ce cas, le bateau en question en est informé. Il met à jour son statut, son état, etc...
 * 
 * Chaque joueur tire tour à tour.
+* Le niveau 1 du plateau permet de savoir quelles cases ont déjà été touchées.
+* 
+* Evolutions possibles : 
+* Ajouter plusieurs points de vie à une même case.
+* Permet de gérer la forme du plateau en mettant une valeur -2 qui indique que le plateau n'existe pas à cette endroit.
+* Permet de ne pas tirer deux fois au même endroit si la couche 1 du plateau a pour valeur 1. (on pourrait également mettre le numéro du joueur à la palce, de manière à savoir qui a déjà tiré à cet endroit)
+* L'IA a gérer est indépendante de ces caractères. PAs plus compliqué à gérer.
+* La représentation en fenetre peut se faire facilement grace justement au nombre de la couche 0 ! On pourrait rajouter une troisième couche pour le brouillard de guerre, et ainsi savoir quelles cases cacher au joueur.
+* 
 */ 
