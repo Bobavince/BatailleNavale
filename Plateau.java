@@ -12,9 +12,11 @@ public class Plateau {
 	
 	//Les variables externes
 	int nbBateaux;
+	String name = "Joueur";
 	
-	public Plateau(int x, int y){
-		plateauValeurs = [x][y][2];
+	public Plateau(String name, int x, int y){
+		plateauValeurs = new [y][x][2];
+		this.name = name;
 	}
 
 	
