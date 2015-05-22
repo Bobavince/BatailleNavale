@@ -6,11 +6,13 @@
 
 
 public class Bateau {
-	int numero
+	int numero;
 	int longueur;
 	int largeur;
 	
-	public Bateau(int longueur, int largeur,)
+	public Bateau(int longueur, int largeur){
+		
+	}
 	
 	public boolean tir(Plateau plateauJoueur, int x, int y){
 		

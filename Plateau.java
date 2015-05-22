@@ -14,20 +14,31 @@ public class Plateau {
 	int nbBateaux;
 	String name = "Joueur";
 	
+	
+	
 	public Plateau(String name, int x, int y){
 		plateauValeurs = new int[y][x][2];
 		plateauValeurs = Type.carre(y,x);
 		this.name = name;
-		
 	}
 	
 	public Plateau(String name, int x, int y, int numeroDeType){
 		plateauValeurs = new int[y][x][2];
 		plateauValeurs = Type.forme(x, y, numeroDeType);
 		this.name = name;
-		
 	}
 
+	public void placerBateau(){
+		
+	}
+	
+	public void tirer(int x, int y){
+		
+	}
+	
+	public void tirerJoueur(int x, int y, Plateau joueur){
+		
+	}
 	
 }
 
