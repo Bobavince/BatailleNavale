@@ -13,7 +13,7 @@ public class Plateau {
 	//Les variables externes
 	int nbBateaux;
 	String name = "Joueur";
-	ListeBateau bateaux = new ListeBateau;
+	ListeBateau bateaux = new ListeBateau();
 	
 	public Plateau(String name, int x, int y){
 		plateauValeurs = new int[y][x][2];
@@ -25,10 +25,6 @@ public class Plateau {
 		plateauValeurs = new int[y][x][2];
 		plateauValeurs = Type.forme(x, y, numeroDeType);
 		this.name = name;
-	}
-
-	public void placerBateau(){
-		
 	}
 	
 	public void tirer(int x, int y){
