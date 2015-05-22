@@ -5,8 +5,7 @@
 
 public class Plateau {
 	//Les Tableaux de la classe
-	int[][][] plateauValeurs; //Initilisation d'un tableau 2D Pour implémentation d'autres valeurs
-	boolean[][] plateauBoolean; //Initilisation d'un tableau 2D pour valeurs
+	int[][][] plateauValeurs; //Initilisation d'un tableau 3D Pour implémentation des deux niveaux de données
 	
 	//Les variables internes
 	
@@ -18,10 +17,6 @@ public class Plateau {
 		plateauValeurs = [x][y][2];
 	}
 
-	public Plateau(){
-		
-	}
-	
 	
 }
 

@@ -6,10 +6,9 @@
 
 
 public class Bateau {
-	int longueurBateau;
-	int largeurBateau;
-	
-	int caseDebut;
+	int numero
+	int longueur;
+	int largeur;
 	
 	public Bateau(int longueur, int largeur,)
 	
