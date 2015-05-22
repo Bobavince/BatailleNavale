@@ -7,11 +7,11 @@
 
 public class Type {
 	
-	//Classe qui créer un plateau carré (tableau 2D avec toutes les cases vides à 0)
+	//Classe qui crÃ©er un plateau carrÃ© (tableau 2D avec toutes les cases vides Ã  0)
 	public static int[][] carre(int x, int y){
 		new int[][] tab;
 				
-				// A compélter
+				// A compÃ©lter
 		return tab;
 	}
 	
