@@ -15,8 +15,17 @@ public class Plateau {
 	String name = "Joueur";
 	
 	public Plateau(String name, int x, int y){
-		plateauValeurs = new [y][x][2];
+		plateauValeurs = new int[y][x][2];
+		plateauValeurs = Type.carre(y,x);
 		this.name = name;
+		
+	}
+	
+	public Plateau(String name, int x, int y, int numeroDeType){
+		plateauValeurs = new int[y][x][2];
+		plateauValeurs = Type.forme(x, y, numeroDeType);
+		this.name = name;
+		
 	}
 
 	
