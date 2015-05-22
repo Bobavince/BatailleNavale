@@ -1,1 +1,19 @@
+/**
+ * @author Vincent F et Thomas B
+ * Classe de gestion de la liste des bateaux sur le plateau.
+ */
 
+
+
+public class Type {
+	
+	//Classe qui créer un plateau carré (tableau 2D avec toutes les cases vides à 0)
+	public static int[][] carre(int x, int y){
+		new int[][] tab;
+				
+				// A compélter
+		return tab;
+	}
+	
+
+}
